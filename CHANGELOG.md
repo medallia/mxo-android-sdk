@@ -1,3 +1,8 @@
+#### Version 1.1.0
+* [UPDATE] Updated to support up to Android API 33.
+* [UPDATE] Added support to include Telemetry data in network calls.
+* [BUGFIX] Fixed an issue where the SDK logging was not creating new log files correctly.
+
 #### Version 1.0.0
 * [BREAKING] Requires the matching Medallia Orchestration Plugin version 1.0.0.
 * [BREAKING] Requires [Kotlin version 1.7.0](https://github.com/JetBrains/kotlin/releases/tag/v1.7.0).
