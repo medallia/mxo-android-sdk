@@ -1,3 +1,6 @@
+#### Version 1.1.1
+* [BUGFIX] Fixed an issue with `directives` not being returned in `MXOOptimizationPoint`.
+
 #### Version 1.1.0
 * [UPDATE] Updated to support up to Android API 33.
 * [UPDATE] Added support to include Telemetry data in network calls.
