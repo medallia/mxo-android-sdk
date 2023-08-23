@@ -1,3 +1,8 @@
+#### Version 1.1.2
+* [BUGFIX] Fixed an issue with `contentUrl` not being returned in `MXOAsset` for external assets.
+* [BUGFIX] Fixed an issue with `MXOAssetResponse` not returning `label`, `target`, and `targetUrl`.
+* [BUGFIX] Fixed an issue with `MXOCaptureAttributePoint` not returning `capturePhase`, `captureType`, `captureDelay`, `elementType`, `elementName`, and `elementAttributeName`.
+
 #### Version 1.1.1
 * [BUGFIX] Fixed an issue with `directives` not being returned in `MXOOptimizationPoint`.
 
