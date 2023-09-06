@@ -1,3 +1,16 @@
+#### Version 1.2.0
+* [UPDATE] Removed `OAuth1` from runtime requests. For further details on this see our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v1.2.0).
+* [UPDATE] Removed `renderscript` support. For further details on this see our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v1.2.0).
+* [UPDATE] Compatible with [Android Gradle Plugin version 7.3.1](https://developer.android.com/build/releases/past-releases/agp-7-3-0-release-notes).
+* [UPDATE] Compatible with [Gradle version 7.5.0](https://docs.gradle.org/7.5/release-notes.html).
+* [BUGFIX] Fixed an issue where multiple customer Attribute data type selections were allowed.
+* [BUGFIX] Fixed an issue where some Capture Points were not sent on tap.
+* [BUGFIX] Fixed an issue where a location was not shared on API 29.
+* [BUGFIX] Fixed an issue with logging for an invalid or missing SDK configuration.
+* [BUGFIX] Fixed an issue where an error message was not shown on an empty view in Admin mode.
+* [BUGFIX] Fixed an issue where an error message was not shown when logging into a non-existing MXO Space.
+* [BUGFIX] Fixed an issue where a user with no permissions was not getting an error message in Admin mode.
+
 #### Version 1.1.2
 * [BUGFIX] Fixed an issue with `contentUrl` not being returned in `MXOAsset` for external assets.
 * [BUGFIX] Fixed an issue with `MXOAssetResponse` not returning `label`, `target`, and `targetUrl`.
