@@ -1,3 +1,10 @@
+#### Version 1.3.0
+* [UPDATE] Compatible with [Android Gradle Plugin version 7.4.0](https://developer.android.com/build/releases/past-releases/agp-7-4-0-release-notes).
+* [UPDATE] Compatible with [Kotlin version 1.8.0](https://github.com/JetBrains/kotlin/releases/tag/v1.8.0).
+* [BUGFIX] Fixed an issue where some `WebViews` were not recognized as Interactions.
+* [BUGFIX] Fixed an issue where an Activity was set as a completion Activity by default.
+* [BUGFIX] Fixed an issue where the SDK configuration parameters disappeared after returning from the background.
+
 #### Version 1.2.0
 * [UPDATE] Removed `OAuth1` from runtime requests. For further details on this see our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v1.2.0).
 * [UPDATE] Removed `renderscript` support. For further details on this see our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v1.2.0).
