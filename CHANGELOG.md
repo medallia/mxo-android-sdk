@@ -1,3 +1,23 @@
+#### Version 2.0.0
+* [BREAKING] Removed `OAuth1` from runtime requests. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v2.0.0) for detailed information.
+* [BREAKING] Bumped `minSdkVersion` to API 24.
+* [BREAKING] Requires [Kotlin version 1.9.10](https://github.com/JetBrains/kotlin/releases/tag/v1.9.10).
+* [BREAKING] Requires [Java version 17](https://developer.android.com/build/jdks).
+* [BREAKING] Requires [Android Gradle Plugin version 8.0](https://developer.android.com/build/releases/past-releases/agp-8-0-0-release-notes).
+* [BREAKING] Requires [Gradle version 8.0](https://docs.gradle.org/8.0/release-notes.html).
+* [NEW] Added ability to filter existing Customer Attributes.
+* [UPDATE] Updated `one-tid` to `tid` query param appended to an outgoing URL.
+* [UPDATE] Updated Admin User Interface.
+* [UPDATE] Updated local `WebView` paths.
+* [UPDATE] Updated `capturePhase` to `ON_CLICK`.
+* [BUGFIX] Fixed an issue with re-authentication with saved credentials.
+* [BUGFIX] Fixed an issue with a selected Customer Attribute icon that was not correctly displayed.
+* [BUGFIX] Fixed an issue where extra Customer Attributes were available for a new MXO Space.
+* [BUGFIX] Fixed an issue where multiple Capture Points were sent for a `MenuItem`.
+* [BUGFIX] Fixed an issue where some items were not recognized as Designtime elements.
+* [BUGFIX] Fixed an issue where updating Customer Attributes, Activity Types, and Propositions in an MXO Space did not reflect those changes in the SDK.
+* [BUGFIX] Fixed a wrong error message for the no search results screen.
+
 #### Version 1.3.0
 * [UPDATE] Compatible with [Android Gradle Plugin version 7.4.0](https://developer.android.com/build/releases/past-releases/agp-7-4-0-release-notes).
 * [UPDATE] Compatible with [Kotlin version 1.8.0](https://github.com/JetBrains/kotlin/releases/tag/v1.8.0).
