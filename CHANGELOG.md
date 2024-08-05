@@ -1,3 +1,6 @@
+### Version 2.0.4
+* [UPDATE] Updated to support up to Android API 34.
+
 #### Version 2.0.0
 * [BREAKING] Removed `OAuth1` from runtime requests. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v2.0.0) for detailed information.
 * [BREAKING] Bumped `minSdkVersion` to API 24.
