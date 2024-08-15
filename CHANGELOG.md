@@ -1,3 +1,16 @@
+#### Version 3.0.0
+* [BREAKING] Minimum supported API level has been advanced to 28. Compilation and integration is unaffected for API 21+ but the SDK will be disabled for API less than 28.
+* [BREAKING] All public APIs are now annotated with the `@RequiresApi`. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v3.0.0) for detailed information.
+* [BREAKING] All Legacy Support APIs have been removed. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v3.0.0) for detailed information.
+* [BREAKING] Bumped the SDK target to API 34. Requires adding `coreLibraryDesugaring` dependency. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v3.0.0) for detailed information.
+* [BREAKING] Requires [Android Gradle Plugin version 8.2.0](https://developer.android.com/build/releases/past-releases/agp-8-2-0-release-notes).
+* [BREAKING] Requires [Gradle version 8.2](https://docs.gradle.org/8.2/release-notes.html).
+* [NEW] Added support for 16KB page size.
+* [NEW] Added support for Identity transfer for `html` links.
+* [UPDATE] Updated Interaction Map system.
+* [BUGFIX] Fixed an issue where Interaction Map requests were sent twice in Preview mode.
+* [BUGFIX] Fixed an issue where a child Proposition was not updated in the SDK when edited in the web MXO.
+
 #### Version 2.0.0
 * [BREAKING] Removed `OAuth1` from runtime requests. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v2.0.0) for detailed information.
 * [BREAKING] Bumped `minSdkVersion` to API 24.
