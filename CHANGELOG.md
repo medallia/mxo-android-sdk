@@ -1,3 +1,12 @@
+#### Version 4.0.0
+* [BREAKING] Custom WebView Client has been removed from the SDK. For further details on this, see our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v4.0.0).
+* [NEW] Added Bridge functionality for communication between other Medallia SDKs. For further details on this, see our [online documentation](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-additional-integrations).
+* [NEW] Added ability to include an Interaction back for tracking if it was excluded from Interaction tracking previously. For further details on this, see our [online documentation](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-including-interaction)
+* [BUGFIX] Fixed an issue with full screen optimizations where tapping outside an image was sending a positive response.
+* [BUGFIX] Fixed an issue with full screen optimizations where customer response buttons were not visible on white background screens.
+* [BUGFIX] Fixed an issue with full screen optimizations where new Activity tasks could have been started.
+* [BUGFIX] Fixed an issue with inability to create group Activity Capture Points on some group elements.
+
 #### Version 3.0.0
 * [BREAKING] Minimum supported API level has been advanced to 28. Compilation and integration is unaffected for API 21+ but the SDK will be disabled for API less than 28.
 * [BREAKING] All public APIs are now annotated with the `@RequiresApi`. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-android-sdk-migration-v3.0.0) for detailed information.
